@@ -1,0 +1,10 @@
+.language__circle {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.language__name {
+    margin-right: 40px;
+}
