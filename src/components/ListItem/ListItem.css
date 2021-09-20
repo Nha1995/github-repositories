@@ -1,8 +1,27 @@
-.listItem {
+.listItem__info {
     margin: 30px auto;
     width: 636px;
     background-color: #f6f8fa;
     font-size: 30px;
     color: #5a6069;
     padding: 40px 30px;
+}
+
+.listItem h3 {
+    margin: 0;
+}
+
+.listItem__header {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: flex-start;
+    width: 53%;
+}
+
+.listItem__header button {
+    width: 200px;
+    height: 40px;
+    margin-right: 50px;
 }

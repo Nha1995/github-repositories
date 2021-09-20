@@ -5,9 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ApolloClient, ApolloProvider, createHttpLink, InMemoryCache } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
+import { BrowserRouter } from 'react-router-dom';
 
 const authLink = setContext((_, { headers }) => {
-  const token = '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';
+  const token = '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';
   return {
     headers: {
       ...headers,
@@ -28,7 +29,9 @@ const client = new ApolloClient({
 
 ReactDOM.render(
   <ApolloProvider client={client}>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </ApolloProvider>,
   document.getElementById('root')
 );

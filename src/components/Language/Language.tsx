@@ -8,9 +8,9 @@ interface Props {
 
 export function Language({color, name}: Props) {
     return (
-        <>
-            <span className='language__circle' style={{ background: `${color}` }}/>
+        <div className='language'>
+            <div className='language__circle' style={{ background: `${color}` }}/>
             <span className='language__name'>{name}</span>
-        </>
+        </div>
     )
 }

@@ -1,3 +1,7 @@
+.language {
+    display: flex;
+}
+
 .language__circle {
     border-radius: 100%;
     width: 30px;

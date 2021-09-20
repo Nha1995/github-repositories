@@ -14,6 +14,7 @@ export interface NODE {
 
 export interface REPOSITORY {
     __typename:"Repository"
+    id: string
     description: string
     name: string
     owner: OWNER
@@ -21,7 +22,7 @@ export interface REPOSITORY {
     stargazerCount: number
     pullRequests: PULL_REQUEST_CONNECTION
     issues: ISSUES_CONNECTION
-    languages: LANGUAGE_CONNECTION[]
+    languages: LANGUAGE_CONNECTION
 }
 
 export interface PULL_REQUEST_CONNECTION {
