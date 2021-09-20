@@ -1,0 +1,23 @@
+.repositoryCard {
+    margin: 30px auto;
+    width: 636px;
+    background-color: #f6f8fa;
+    font-size: 30px;
+    color: #5a6069;
+    padding: 40px 30px;
+}
+
+.repositoryCard__ownerAndName {
+    color: black;
+    font-weight: 700;
+    margin: 0;
+    width: 90%;
+}
+
+.repositoryCard__description {
+    width: 636px;
+}
+
+.repositoryCard__primaryLangAndStar {
+    display: flex;
+}
